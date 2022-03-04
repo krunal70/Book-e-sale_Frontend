@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0 user-scalable=no"
+      />
+      <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+      <link
+        rel="shortcut icon"
+        type="image/x-icon"
+        href="images/favicon/favicon.ico"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="114x114"
+        href="images/favicon/apple-touch-icon.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="192x192"
+        href="images/favicon/android-chrome-384x384.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="192x192"
+        href="images/favicon/android-chrome-192x192.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="96x96"
+        href="images/favicon/mstile-150x150.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="images/favicon/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="images/favicon/favicon-16x16.png"
+      />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="theme-color" content="#ffffff" />
+      <title>Tatvasoft</title>
+      <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+      <div class="wrapper">
+        <header class="site-header" id="header">
+          <div class="site-header-wrapper">
+            <div class="container">
+              <div class="header-wrapper">
+                <div class="logo-wrapper">
+                  <a class="site-logo" title="logo" href="#">
+                    <img src="images/site-logo.svg" alt="Tatvasoft"/>
+                  </a>
+                </div>
+                <div class="nav-wrapper">
+                  <div class="top-right-bar">
+                    <ul class="top-nav-bar">
+                      <li>
+                        <a title="Login" href="#">Login</a>
+                      </li>
+                      <li>
+                        <a title="Register" href="register.html">Register</a>
+                      </li>
+                    </ul>
+                    <ul class="cart-country-wrap">
+                      <li class="cart-link">
+                        <a title="Cart" href="cartPage.html">
+                          <button class="cart-btn" type="submit" style="width: 100.88px; background-color: white; border-width: 0.5px;">
+                            <em><img src="images/cart.svg" alt="cart" /><span>0</span></em>Cart
+                          </button>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-search-wrapper">
+            <div class="container" style="height: 40px;">
+              <div class="header-search-outer" style="height: 40px;">
+                <div class="header-search-inner" style="height: 40px;">
+                  <div class="text-wrapper">
+                    <div class="form-group-wrapper">
+                      <div class="form-group">
+                        <label style="display: none" for="search-text">
+                          Search
+                        </label>
+                        <input
+                          id="search-text"
+                          name="search"
+                          placeholder="What are you looking for..."
+                          type="search"
+                          class="form-control"
+                          value=""
+                          style="height: 40px;"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button class="btn green-btn" type="submit">
+                    <em><img src="images/search.svg" alt="search" /></em>Search
+                  </button>
+                  <button class="btn red-btn" type="submit">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main>
+          <section class="login-account-page-wrapper">
+            <div class="container">
+              <div class="breadcrumb-wrapper">
+                <ol>
+                  <li>
+                    <a href="register.html" title="Home">Home</a>
+                  </li>
+                  <li>
+                    <p class="navigation">Login</p>
+                  </li>
+                </ol>
+              </div>
+              <h1>Login or Create an Account</h1>
+              <div class="login-account-row">
+                <form>
+                  <div class="form-block">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col">
+                          <p class="login-sub-header">New Customer</p>
+                          <hr>
+                          <p>Registration id free and easy.</p>
+                          <p style="padding: 0px;">
+                            <ul class="login-list" style="list-style:disc; font-weight: lighter;">
+                              <li>Faster checkout</li>
+                              <li>Save multiple shipping addresses</li>
+                              <li>View and track orders and more</li>
+                            </ul>
+                          </p>
+                          <div class="create-account-btn">
+                            <a href="register.html">
+                              <button class="btn red-btn" type="button">Create an Account</button>
+                            </a>
+                          </div>
+                          
+                        </div>
+                        <div class="col">
+                          <p class="login-sub-header">Registered Customers</p>
+                          <hr>
+                          <div class="form-group">
+                            <p>If you have account with us, please log in</p>
+                            <label for="email-address" id="email-address-label">
+                              Email Address *
+                            </label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="email-address"
+                            />
+                            <span class="error-msg">Invalid</span>
+                          </div>
+                          <div class="form-group">
+                            <label for="password" id="password-label"
+                              >Password *</label
+                            >
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="password"
+                            />
+                            <span class="error-msg">Invalid</span>
+                          </div>
+                          <div class="login-btn">
+                            <button class="btn red-btn" type="button" style="width: 100px;">Login</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+      <footer class="site-footer">
+        <div class="footer-wrapper">
+          <div class="container">
+            <div class="footer-logo">
+              <a class="site-logo" title="logo" href="#">
+                <img src="images/site-logo.svg" alt="Tatvasoft"/>
+              </a>
+            </div>
+            <p class="copyright-text">
+              © 2022 Tatvasoft.com. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+      <script src="./script.js"></script>
+    </body>
+</html>
